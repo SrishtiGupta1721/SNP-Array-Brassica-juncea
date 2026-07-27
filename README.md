@@ -1,4 +1,4 @@
-# SNP Array Design in Brassica juncea
+# SNP Array Primer Design in Brassica juncea
 
 ## Overview
 This project presents a Python-based pipeline for designing SNP-specific primers in *Brassica juncea*. The pipeline identifies target SNPs, designs primers, and validates primer specificity using BLAST.
