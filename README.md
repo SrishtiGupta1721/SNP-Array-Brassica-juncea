@@ -1,7 +1,7 @@
 # SNP Array Primer Design in Brassica juncea
 
 ## Overview
-A Python pipeline for designing gene-specific PCR primers in *Brassica juncea* (Varuna). Given a target gene ID, it extracts the gene's genomic sequence from a GFF3/FASTA pair, generates candidate primer pairs with Primer3, and validates each candidate's uniqueness against the genome using BLAST — keeping only GC-clamped primer pairs that map uniquely to the expected chromosome.
+A Python pipeline for designing gene-specific PCR primers in *Brassica juncea* (Varuna). Given a target gene ID, it extracts the gene's genomic sequence from a GFF3/FASTA pair, generates candidate primer pairs with Primer3, and validates each candidate's uniqueness against the genome using BLAST 
 
 ## How it works
 1. **Extract gene sequence** — parses the GFF file for the target gene's coordinates and pulls the corresponding sequence from the genome FASTA.
